@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+}
+body{
+    background-color:#666060;
+    background-image: url(Discover-Supercomputer-2-NASA-NCCS.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #66999;
+}
+header{
+    background: black;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+nav img{
+    float: left;
+}
+nav h1{
+    color: white;
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    padding-top: 10px;
+    width:10%;
+    
+} 
+nav ul {
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+  }
+   
+  nav ul li {
+    float: right;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding-top: 10px;
+    width:15%;
+  }
+   
+  nav ul li a {
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial;
+    font-size:20px;
+  }
+   
+  nav ul li:hover {
+    background-color:rgb(255, 0, 0);
+    color:rgb(255, 255, 255);
+  }
+  .wrapper {
+    width: 90%;
+    margin: auto;
+    overflow:hidden;
+  }
