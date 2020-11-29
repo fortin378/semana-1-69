@@ -5,15 +5,15 @@
     
 }
 body{
-    background-color:#666060;
-    background-image: url(Discover-Supercomputer-2-NASA-NCCS.jpg);
-    background-position: center center;
+    background-color:#574848;
+    background-image: url(banner.hospital.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #66999;
+    
 }
 header{
-    background: black;
+    background: rgb(255, 255, 255);
     width: 100%;
     position: fixed;
     z-index: 100;
@@ -22,17 +22,17 @@ nav img{
     float: left;
 }
 nav h1{
-    color: white;
+    color: rgb(2, 2, 2);
     float: left;
-    font-family: Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 30px;
-    padding-top: 10px;
+    padding-top: 37px;
     width:10%;
     
 } 
 nav ul {
     list-style: none;
-    overflow: hidden; /* Limpiamos errores de float */
+    overflow: hidden;
   }
    
   nav ul li {
@@ -40,16 +40,17 @@ nav ul {
     font-family: Arial, sans-serif;
     font-size: 16px;
     padding-top: 10px;
-    width:15%;
+    width:13%;
   }
    
   nav ul li a {
-    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
-    padding: 20px;
-    color: #fff;
+    display: block;
+    padding: 10px;
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    font-family: Arial;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size:20px;
+    text-align: center;
   }
    
   nav ul li:hover {
@@ -57,7 +58,14 @@ nav ul {
     color:rgb(255, 255, 255);
   }
   .wrapper {
-    width: 90%;
+    width: 95%;
     margin: auto;
     overflow:hidden;
   }
+div{
+  text-align: center;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size:25px;
+  width:100%;
+}
